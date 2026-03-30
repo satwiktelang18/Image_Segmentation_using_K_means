@@ -192,9 +192,9 @@ Re-run with higher K values. For K=20, images are resized to `300×300` first fo
 
 | K Value | Segmentation | Speed | Best Use Case |
 |---------|-------------|-------|---------------|
-| **K = 3** | Coarse — dominant regions only | ⚡ Very Fast | Simple foreground/background separation |
-| **K = 5** | Balanced — meaningful distinct regions | 🟡 Moderate | General-purpose segmentation |
-| **K = 20** | Fine — subtle color variations | 🔴 Slow | Near-lossless simplification |
+| **K = 3** | Coarse — dominant regions only | Very Fast | Simple foreground/background separation |
+| **K = 5** | Balanced — meaningful distinct regions | Moderate | General-purpose segmentation |
+| **K = 20** | Fine — subtle color variations | Slow | Near-lossless simplification |
 
 > **Key Observation:** As K increases, the output converges toward the original image — more color detail but diminishing segmentation effect. Optimal K balances detail and efficiency.
 
