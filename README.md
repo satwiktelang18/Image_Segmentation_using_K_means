@@ -5,10 +5,6 @@ This project demonstrates image segmentation using the K-Means clustering algori
 
 Image segmentation is a technique in computer vision that divides an image into different segments. This can help identify specific objects, boundaries or patterns in the image.  Image is basically a set of given pixels and in image segmentation pixels with similar intensity are grouped together. Image segmentation creates a pixel-wise mask for objects in an image which gives us a better understanding of the object
 
-##  📝 Steps 
-Step 1: Install Required Libraries
-In the first step we load required libraries like Numpy , Matplotlib and OpenCV. We'll start by reading the image and displaying it
-
 ---
 
 ## 🛠️ Technologies Used
